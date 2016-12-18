@@ -1,0 +1,4 @@
+www.google.com  absolute
+../pic/dog.jpg  relative
+/pic/dog.jpg  relative
+chapter07/index.html  relative
