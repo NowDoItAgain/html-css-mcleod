@@ -1,0 +1,7 @@
+p {
+  color: purple;
+} /*specificity=1*/
+
+.lorem {
+  color: yellow;
+} /*specificity=10, winner*/

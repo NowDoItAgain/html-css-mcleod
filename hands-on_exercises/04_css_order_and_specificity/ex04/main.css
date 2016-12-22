@@ -1,0 +1,7 @@
+a{
+  color: aqua;
+}/*specificity=1*/
+
+[href]{
+  color: orange;
+}/*specificity=10, winner*/

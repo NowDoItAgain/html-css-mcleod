@@ -1,0 +1,11 @@
+
+
+h1 {
+  color: red;
+  /*specificity=1*/
+}
+
+#paper {
+  color: blue;
+/*specificity=100, winner*/
+}

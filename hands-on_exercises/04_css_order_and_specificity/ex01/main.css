@@ -1,0 +1,9 @@
+.blue {
+  color: blue;
+/*specificity=10*/
+}
+
+#red {
+  color: red;
+  /*specificity=100, winner*/
+}

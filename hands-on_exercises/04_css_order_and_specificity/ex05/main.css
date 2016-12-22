@@ -1,0 +1,7 @@
+.search{
+  color: green;
+}/*specificity=10*/
+
+[href]{
+  color: blue;
+}/*specificity=10*, winner due to being ordered last/
