@@ -1,0 +1,19 @@
+[href] {
+  font-size: 2em;
+}
+
+[href]:link {
+  color: green;
+}
+
+[href]:visited {
+  color: orange;
+}
+
+[href]:hover {
+  color: aqua;
+}
+
+[href]:active {
+  color: purple;
+}
