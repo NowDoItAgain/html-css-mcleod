@@ -1,0 +1,28 @@
+* {
+    /*border: 1px dashed hotpink;*/
+}
+
+html {
+    font-size: 2rem;
+}
+
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    padding: 5px;
+}
+
+li {
+  margin-left: 20px;
+    display: inline-block;
+    border: 2px solid red;
+    border-radius: 50px;
+
+}
+
+li:hover {
+    background-color: skyblue;
+
+}

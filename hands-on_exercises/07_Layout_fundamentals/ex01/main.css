@@ -1,0 +1,21 @@
+div{
+  display: inline-block;
+  height: 50px;
+  width: 100px;
+  border: 2px solid black;
+  border-radius: 40px;
+
+}
+
+.num01{
+  background-color: red;
+}
+.num02{
+  background-color: blue;
+}
+.num03{
+  background-color: yellow;
+}
+.num04{
+  background-color: green;
+}
