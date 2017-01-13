@@ -1,0 +1,16 @@
+body{
+  display: flex;
+  /*flex-direction: row;*/
+  /*flex-wrap: wrap;*/
+  flex-flow: row wrap;
+  align-items: stretch;
+  height: 900px;
+}
+
+div {
+  margin: 10px;
+  width: 200px;
+  /*height: 100px;*/
+  border: 2px solid red;
+  background-color: gray;
+}

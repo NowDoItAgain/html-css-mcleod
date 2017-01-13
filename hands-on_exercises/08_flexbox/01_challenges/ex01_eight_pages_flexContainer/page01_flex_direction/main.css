@@ -1,0 +1,12 @@
+body{
+  display: flex;
+  flex-direction: row;
+}
+
+div {
+  margin: 10px;
+  width: 200px;
+  height: 100px;
+  border: 2px solid red;
+  background-color: gray;
+}

@@ -1,0 +1,20 @@
+body{
+  display: flex;
+  flex-flow: row no-wrap;
+  height: 900px;
+}
+
+div {
+  margin: 10px;
+  width: 200px;
+  height: 100px;
+  border: 2px solid red;
+  background-color: gray;
+  flex-grow: 1;
+}
+
+
+
+.num002{
+  flex-grow: 2;
+}

@@ -1,0 +1,26 @@
+body{
+  display: flex;
+  flex-flow: column wrap;
+  align-content: space-between;
+  height: 900px;
+}
+
+div{
+  margin: 10px;
+  width: 200px;
+  height: 100px;
+  border: 2px solid red;
+  background-color: gray;
+}
+
+.num009{
+  order: -3;
+}
+
+.num010{
+    order: -2;
+}
+
+.num011{
+    order: -1;
+}
