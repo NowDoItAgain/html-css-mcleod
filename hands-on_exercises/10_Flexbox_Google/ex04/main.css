@@ -1,0 +1,56 @@
+html, body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+}
+
+div {
+  box-sizing: border-box;
+  padding: 50px;
+  text-align: center;
+  background-image: url("lemon-smaller.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  font-size: 2rem;
+}
+
+.text001 {
+  /*background-color: #3367D6;*/
+  width: 100%;
+}
+
+.text002 {
+  /*background-color: deepskyblue;*/
+  width: 33.33%;
+}
+
+.text003 {
+  /*background-color: #4e6893;*/
+  width: 33.33%;
+}
+
+.text004 {
+  /*background-color: #A4ADB6;*/
+  width: 33.33%;
+}
+
+.text005 {
+  /*background-color: #ccc;*/
+  width: 50%;
+}
+
+.text006 {
+  /*background-color: #e88585;*/
+  width: 50%;
+}
+
+.text007 {
+  /*background-color: #F92426;*/
+  width: 100%;
+}

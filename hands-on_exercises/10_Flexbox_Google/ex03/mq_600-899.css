@@ -1,0 +1,32 @@
+.text001 {
+  width: 20%;
+  order: -3;
+}
+
+.text002 {
+  width: 40%;
+  order: -1;
+}
+
+.text003 {
+  width: 60%;
+  order: -2
+}
+
+.text004 {
+  width: 80%;
+  order: -4;
+  /*height: 100vh;*/
+}
+
+.text005 {
+  width: 100%;
+}
+
+.text006 {
+  width: 60%;
+}
+
+.text007 {
+  width: 40%;
+}
