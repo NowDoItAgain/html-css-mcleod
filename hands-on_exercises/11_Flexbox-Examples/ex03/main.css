@@ -1,0 +1,35 @@
+html,
+body,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin-top: 40px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0 5%;
+}
+
+nav {
+
+  border: 8px solid red;
+  width: 20%;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  padding: 15px;
+}
+
+section {
+  padding: 30px;
+  width: 80%;
+  border: 6px solid red;
+}

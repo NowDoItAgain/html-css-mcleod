@@ -1,0 +1,16 @@
+nav {
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+ul,
+li,
+a {
+  display: block;
+  width: 100%;
+}
+
+
+a {
+  text-align: center;
+  }

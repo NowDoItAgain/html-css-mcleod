@@ -1,0 +1,46 @@
+html,
+body,
+article,
+p,
+aside {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+header,
+article,
+aside,
+p,
+footer {
+  width: 100%;
+  padding: 20px;
+  text-align: center;
+}
+
+header {
+  background-color: red;
+}
+
+article {
+  background-color: deepskyblue;
+}
+
+aside:nth-child(3) {
+  background-color: yellow;
+}
+
+aside:nth-child(4) {
+  background-color: hotpink;
+}
+
+footer {
+  background-color: green;
+}

@@ -1,0 +1,21 @@
+body {
+  color: white;
+}
+
+nav {
+  background-color: deepskyblue;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+a:hover {
+  background-color: royalblue;
+}
