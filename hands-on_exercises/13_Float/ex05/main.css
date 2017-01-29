@@ -1,0 +1,25 @@
+nav,
+section {
+  box-sizing: border-box;
+  border: 3px solid blue;
+  padding: 50px;
+  font-size: 1.5rem;
+}
+
+li {
+  list-style: none;
+  padding: 20px;
+}
+
+nav {
+  float: left;
+  width: 20%;
+  height: 500px;
+  font-size: 1.5rem;
+}
+
+section {
+  float: right;
+  width: 78%;
+  height: 800px;
+}

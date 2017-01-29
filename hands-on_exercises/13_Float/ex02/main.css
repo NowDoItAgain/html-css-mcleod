@@ -1,0 +1,15 @@
+div {
+  height: 400px;
+  width: 700px;
+  margin: 0 auto;
+  background-color: blue;
+  /*overflow: hidden;*/
+}
+
+section {
+  height: 500px;
+  width: 500px;
+  float: right;
+  background-color: red;
+  opacity: .7;
+}
