@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+body {
+  background-image: url('../exercise-files/dog.png');
+  background-repeat: repeat-y;
+  height: 100vh;
+}

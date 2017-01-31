@@ -1,0 +1,16 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+
+div {
+  background-image: url('../exercise-files/dog.png');
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 600px;
+  border-style: groove;
+  border: 20px groove gold;
+}
