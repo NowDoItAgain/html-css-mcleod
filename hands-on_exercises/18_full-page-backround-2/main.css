@@ -1,0 +1,142 @@
+html {
+  color: whitesmoke;
+}
+
+body {
+  display: flex;
+  flex-flow: row wrap;
+  font-family: 'Cantarell', sans-serif;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  height: 2.9rem;
+  background-color: rgba(0,0,0,.6);
+}
+
+header div {
+  display: flex;
+  justify-content: flex-start;
+  height: 2.5rem;
+  /*width: 10rem;*/
+  margin-left: 25px;
+  /*background-color: red;*/
+}
+
+
+header nav {
+  display: none;
+}
+
+
+
+header div a svg {
+  display: none;
+}
+
+header div a:hover{
+  /*color: mediumaquamarine;*/
+  color: paleturquoise;
+}
+
+header a {
+  display: flex;
+  align-items: center;
+  height: 2.5rem;
+  /*border: 1px solid hotpink;*/
+}
+
+.atf-svg {
+  width: 3rem;
+  margin-right: 2rem;
+  margin-left: 2rem;
+}
+
+.atf {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  text-align: center;
+  height: 100vh;
+  width: 100vw;
+  background-image: url("img/background-photo.jpg");
+  background-size: cover;
+  background-position: center;
+  background-origin: border-box;
+  background-attachment: fixed;
+}
+
+
+.atf-h1 {
+  font-weight: normal;
+  font-size: 1.50rem;
+}
+
+
+.atf-h2 {
+  font-weight: bold;
+  font-size: 1.25rem;
+}
+
+.atf-h3 {
+  font-weight: normal;
+  margin-top: 1rem;
+  font-size: 1.25rem;
+  /*line-height: 2rem;*/
+}
+
+.atf-h4 {
+
+}
+
+.atf-button {
+  border: 1px solid #c5f5d7;
+  border-radius: 5px;
+  width: auto;
+  /*height: 1rem;*/
+  padding: 8px;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #c5f5d7;
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.headlines {
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  align-items: center;
+  height: 80%;
+}
+
+
+.mobile-nav {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1.5rem;
+  width: 100%;
+}
+
+.mobile-nav a {
+  display: flex;
+  align-items: center;
+  background-color: deepskyblue;
+  border-top: 1px solid rgba(255,255,255,0.3);
+  border-bottom: 1px solid rgba(0,0,0,0.1);
+}
+
+.mobile-nav a:hover {
+  background-color: royalblue;
+}
+
+.btf {
+  display: none;
+}
