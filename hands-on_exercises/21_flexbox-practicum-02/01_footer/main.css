@@ -1,0 +1,97 @@
+html, body, div, footer, {
+    border: 0;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 2vw;
+}
+
+.atf {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-align: center;
+    padding: 0;
+    color: #86969C;
+}
+
+hr {
+    margin: 0 1rem .2rem 1rem;
+    border: 0;
+    /*width: 95%;*/
+    height: 2px;
+    background-color: #86969C;
+}
+
+footer {
+    box-sizing: border-box;
+    display: flex;
+    justify-content: space-between;
+    height: 5.5rem;
+    width: 100%;
+    font-size: 2rem;
+    padding: 0 4rem 0 4rem;
+}
+
+.btf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.spin {
+    color: #86969C;
+}
+
+.graphic {
+    height: 2rem;
+    width: 2rem;
+    fill: #86969C;
+    margin-right: .5rem;
+    /*Animation*/
+    animation-name: spin;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.reset {
+    color: deepskyblue;
+}
+
+button {
+    border: 0;
+    height: 3.3rem;
+    width: 7.6rem;
+    border-radius: .1rem;
+    background-color: #4EBBE4;
+    color: white;
+    font-size: 2rem;
+}
+
+#button1 {
+    background-color: white;
+    color: #4EBBE4;
+    margin-right: .8rem;
+}
+
+#button2 {
+    border: 1px solid dodgerblue;
+}
