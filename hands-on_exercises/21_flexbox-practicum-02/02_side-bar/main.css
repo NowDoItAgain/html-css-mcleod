@@ -1,0 +1,51 @@
+html, body, aside, main, section {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+font-size: 1vw;
+}
+
+body {
+display: flex;
+}
+
+.sidebar {
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+width: 20%;
+height: 100vh;
+padding-top: 4rem;
+padding-bottom: 4rem;
+border-right: 1px solid lightgray;
+}
+
+section {
+display: flex;
+flex-direction: column;
+}
+
+button {
+height: 6rem;
+width: 100%;
+border: 0;
+padding: 0;
+margin: 0;
+background-color: #fff;
+color: #16A2D7;
+font-size: 2rem;
+padding-left: 4rem;
+text-align: left;
+}
+
+button:hover {
+background-color: #EEF3F5;
+}
+
+.main-content {
+width: 80%;
+height: 100vh;
+}

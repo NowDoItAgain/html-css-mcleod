@@ -1,0 +1,35 @@
+html, body {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html {
+font-size: 1vw;
+}
+
+body {
+display: flex;
+height: 100vh;
+justify-content: center;
+align-items: center;
+}
+
+.graphics {
+border: 1px solid #D9DDDF;
+fill: #BCD2DA;
+background-color: #fff;
+border-radius: 50%;
+height: 8.4rem;
+width: 8.4rem;
+padding: 4.1rem;
+box-shadow: 0 .1rem .3rem #D9DDDF;
+}
+
+button {
+margin: 0;
+margin-bottom: 2.4rem;
+padding: 0;
+background-color: #fff;
+border: none;
+}

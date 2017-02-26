@@ -1,0 +1,16 @@
+html {
+font-size: 2vw;
+}
+
+main {
+max-width: 90%;
+border-radius: 2rem;
+}
+
+
+.graphics {
+margin: 0;
+fill: #BCD2DA;
+height: 8em;
+width: 8em;
+}

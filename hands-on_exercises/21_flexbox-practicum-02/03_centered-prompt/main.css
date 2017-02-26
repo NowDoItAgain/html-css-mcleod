@@ -1,0 +1,48 @@
+html, body, h1, h2 {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+html, h1, h2 {
+font-size: 1vw;
+}
+
+body {
+display: flex;
+flex-flow: column wrap;
+justify-content: center;
+align-items: center;
+height: 100vh;
+}
+
+.graphics {
+margin: 0;
+height: 10rem;
+width: 10rem;
+fill: #BCD2DA;
+padding-bottom: .5rem;
+}
+
+h1 {
+font-size: 6rem;
+color: #86969C;
+}
+
+h2 {
+margin-top: 1rem;
+font-size: 3rem;
+color: #86969C;
+font-weight: normal;
+}
+
+button {
+margin: 3rem 0;
+background-color: #4EBBE4;
+border: 1px solid dodgerblue;
+border-radius: .2rem;
+font-size: 2rem;
+color: #fff;
+/*height: 6rem;*/
+padding: 1rem 3rem;
+}
