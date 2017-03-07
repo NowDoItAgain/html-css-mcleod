@@ -11,4 +11,16 @@ html, body, div, header {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+  /*positioning*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: whitesmoke;
+  font-family: 'Titillium Web', sans-serif;
+  letter-spacing: 5px;
+  opacity: .6;
+  font-size: 11rem;
 }

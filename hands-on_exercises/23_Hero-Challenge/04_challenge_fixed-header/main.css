@@ -1,0 +1,54 @@
+html, body, div, header {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  position: fixed;
+  height: 4rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgba(59, 59, 62, 0.75);
+}
+
+.atf {
+  height: 100vh;
+  width: 100%;
+  background-image: url("darth_vader_1920x1080.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  /*positioning*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.title {
+  color: whitesmoke;
+  /*font-family: 'Titillium Web', sans-serif;*/
+  font-family: 'Diplomata SC', cursive;
+  /*font-family: 'Lato', sans-serif;*/
+  /*letter-spacing: 5px;*/
+  opacity: .5;
+  font-size: 6rem;
+}
+
+.btf {
+  width: 100%;
+  height: 33vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(45deg, #0D2AB6 20%,  #4C7BB6);
+}
+
+.message {
+  font-family: 'Titillium Web', sans-serif;
+  opacity: .6;
+  font-size: 9rem;
+  /*color: darkgray;*/
+}
