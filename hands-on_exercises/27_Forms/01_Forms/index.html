@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="main.css">
+  <title>Forms</title>
+</head>
+<body>
+
+  <form action="/" method="post">
+
+    <div>
+      <label for="fullname">Name</label>
+      <input id="fullname" type="text" name="fullName" title="enter your first and last name"  placeholder="First &amp; Last Name">
+      <input type="submit" value="Send">
+    </div>
+
+    <div class="cbox">
+      <label for="cbox">Send Newsletter</label>
+      <input type="checkbox" id="cbox" name="rec-nl" title="select to receive email" >
+    </div>
+
+    <div>
+      <label for="date">Date</label>
+      <input type="date" name="date" id="date">
+    </div>
+
+    <div>
+      <label for="color">Select Color</label>
+      <input type="color" name="color" id="color" value="#ff0000">
+    </div>
+
+    <div>
+      <label for="flie">File</label>
+      <input type="file" name="file" id="file">
+    </div>
+
+    <div class="cbox">
+        <label for="radio1">radio#1</label>
+        <input type="radio" id="radio1" name="radio">
+    </div>
+    <div class="cbox">
+        <label for="radio2">radio#2</label>
+        <input type="radio" id="radio2" name="radio">
+    </div>
+    <div class="cbox">
+        <label for="radio3">radio#3</label>
+        <input type="radio" id="radio3" name="radio">
+    </div>
+
+    <div>
+        <label for="range">range</label>
+        <input type="range" id="range" name="range">
+    </div>
+
+    <div>
+        <label for="reset">reset</label>
+        <input type="reset" id="reset" name="reset">
+    </div>
+
+    <div>
+        <label for="time">time</label>
+        <input type="time" id="time" name="time">
+    </div>
+
+    <div>
+        <label for="submit">submit</label>
+        <input type="submit" id="submit" name="submit">
+    </div>
+
+    <div>
+        <label for="text">text</label>
+        <input type="text" id="text" name="text">
+    </div>
+
+    <div>
+        <label for="search">search</label>
+        <input type="search" id="search" name="search">
+    </div>
+
+    <div>
+        <label for="tel">tel</label>
+        <input type="tel" id="tel" name="tel">
+    </div>
+
+    <div>
+        <label for="week">week</label>
+        <input type="week" id="week" name="week">
+    </div>
+
+    <div>
+        <label for="url">url</label>
+        <input type="url" id="url" name="url">
+    </div>
+
+  </form>
+
+  <form action="/" method="post">
+
+    <div>
+        <label for="firstname">First Name:</label>
+        <input type="text" id="firstname" name="fname" required>
+    </div>
+
+    <div>
+        <label for="uessay">Essay:</label>
+        <textarea id="uessay" name="essay" rows="10" cols="40"></textarea>
+        <!-- you could include cols="30" -->
+    </div>
+
+    <div id="frmsubmit" class="divider">
+        <input type="submit" name="submit" id="submitobey" value="blast-off">
+    </div>
+
+    <div>
+        <label for="urange">Satisfaction</label>
+        <input type="range" name="range" id="urange" min="1" max="10" value="9">
+        <h1></h1>
+    </div>
+
+
+  </form>
+
+<!-- script is for the satistaction-range -->
+  <script>
+
+      var r = document.querySelector("#urange");
+      var out = document.querySelector("h1");
+
+      out.innerText = r.valueAsNumber;
+
+      r.addEventListener('input', function(){
+          out.innerText = r.valueAsNumber;
+      });
+
+  </script>
+
+</body>
+</html>

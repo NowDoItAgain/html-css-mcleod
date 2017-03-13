@@ -1,0 +1,93 @@
+html, body, div, h1 {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 1vw;
+}
+
+
+body {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: no-wrap;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #F7F8FA;
+}
+
+form {
+  /*width: 40%;*/
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  /*align-items: flex-start;*/
+  margin: 7rem 7rem;
+  padding: 2rem 10rem 2rem 2rem;
+  border: 1px solid #cccccc;
+  box-shadow: 2px 2px 2px #eeeeee;
+  border-radius: 1rem;
+  background-color: #91a3b0;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 1rem 0;
+}
+
+form > .cbox {
+  display: flex;
+  flex-flow: row-reverse;
+  justify-content: flex-end;
+
+}
+
+div > *, form > * {
+  border-radius: .4rem;
+}
+
+label {
+  margin-right: 2rem;
+  color: slategrey;
+  font-size: 1.5rem;
+  padding-bottom: .5rem;
+  color: #F7F8FA;
+}
+
+input {
+  font-size: 1.25rem;
+  padding: .5rem;
+  margin-bottom: 1rem;
+  color: slategrey;
+}
+
+input[type="file"] {
+  color: #F7F8FA;
+}
+
+input[type="checkbox"], input[type="radio"] {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: .5rem;
+}
+
+label[for="cbox"] {
+  /*font-size: 1rem;*/
+  vertical-align: middle;
+}
+
+h1 {
+  color: #0070ff;
+  font-size: 3rem;
+}
+
+.account-info {
+  display: flex;
+  flex-flow: column;
+}
