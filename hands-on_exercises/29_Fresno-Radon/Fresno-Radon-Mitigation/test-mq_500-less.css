@@ -1,0 +1,337 @@
+
+
+/*css-reset.................................................................*/
+
+html, body, div, h1, h2, p {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: flex-start;
+    width: 100%;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/*Header-Nav................................................................*/
+
+header {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 1rem; /**/
+}
+
+header > h1:first-child {
+    text-align: center;
+    width: 100%;
+    font-size: 2rem; /**/
+    font-weight: normal;
+    /*letter-spacing: .2rem;*/
+    /*word-spacing: .7rem;*/
+    color: #665;
+}
+
+nav.main {
+    display: none;
+    width: 72rem;
+    /*display: flex;*/
+    justify-content: center;
+    align-items: center;
+    margin: .5rem 0 1rem 0;
+}
+
+div.menu {
+    width: 24rem;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem;
+}
+
+a.menu {
+    color: #665;
+    font-weight: lighter;
+    text-decoration: none;
+    padding: .5rem 1rem;
+    background-image: linear-gradient(#f9f9f2, #fbfbf0);
+    box-shadow: .5px .5px .5px #ddd;
+    border-radius: .1rem;
+    margin: 0 1rem;
+}
+
+a.menu:hover {
+    background-image: linear-gradient(#fbfbf0, #f6f6dc);
+}
+
+div.line {
+    width: 24rem;
+    border-bottom: .5px solid #ddd;
+    margin: 1rem;
+}
+
+
+/*End Header-Nav............................................................*/
+
+section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30rem; /**/
+    width: 100%;
+    margin-top: 1rem; /**/
+}
+
+section.atf-photo {
+    background-image: url("images/beachmommed.jpg"); /**/
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; /**/
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .2);
+}
+
+div.layer {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    height: 20rem; /**/
+    width: 16rem;/**/
+}
+
+h1.layer {
+    font-family: 'Cormorant Garamond', serif;
+    color: #fff;
+    font-size: 3rem; /**/
+}
+
+p.layer {
+    text-align: center;
+    color: #fff;
+    line-height: 2rem; /**/
+    font-size: 1.25rem; /**/
+    font-weight: bold;
+}
+
+
+/*Test Your Home Today - Button.............................................*/
+
+a.test {
+    text-decoration: none;
+    border: 0;
+    background-color: #ff0800;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: bold;
+    padding: .6rem;
+    border-radius: .2rem;
+}
+
+
+/*Articles...................................................................*/
+
+article {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    width: 20rem;/**/
+    margin-right: 1rem;/**/
+    font-size: 1.2rem;
+    color: #665;
+}
+
+h1.resource {
+    display: inline-block;
+    font-size: 1.7rem;
+    font-weight: normal;
+    border-bottom: 1px solid #665;
+    text-decoration-color: #665;
+    box-shadow: 1px 3px 0 rgba(#666655, 0.56);
+}
+
+h2.resource, h2 {
+    font-family: 'EB Garamond', serif;
+    font-weight: normal;
+    margin: 1rem 0 .5rem 0;
+    padding-bottom: 0;
+}
+
+p.resource, p.list {
+    font-family: 'Lato', sans-serif;
+    font-weight: 300;
+    color: #4d4d4d;
+}
+
+a.resource {
+    align-self: center;
+}
+
+div.container {
+    align-self: center;
+    margin: 2.5rem 0;
+}
+
+div.list {
+    width: 20rem;/**/
+    display: flex;
+    justify-content: space-around;
+    flex-flow: row wrap;/**/
+    margin: 1rem 0;
+}
+
+ol, img {
+    display: inline-block;
+}
+
+a.resource {
+    align-self: flex-end;
+    text-decoration: none;
+    color: #665;
+    font-family: monospace;
+}
+
+a.resource:hover {
+    text-decoration: underline;
+    color: blue;
+}
+
+h2.list {
+    margin: 0;
+    display: inline;
+}
+
+li {
+    margin: .2rem 0 .2rem 1.2rem;
+}
+
+div.longline {
+    align-self: center;
+    margin: 2.5rem 0;
+    width: 57rem;
+    border-bottom: .5px solid #ddd;
+}
+
+
+/*Tables.....................................................................*/
+
+table {
+    font-family: sans-serif;
+    font-size: .8rem;/**/
+    color: #444;
+    text-align: left;
+    border-color: black;
+    border-collapse: collapse;
+}
+
+
+/*rounding table borders---------------*/
+
+tr>th:first-child {
+    border-top-left-radius: .3rem;
+}
+
+tr>th:last-child {
+    border-top-right-radius: .3rem;
+}
+
+tfoot>tr>td:first-child {
+    border-bottom-left-radius: .3rem;
+}
+
+tfoot>tr>td:first-child {
+    border-bottom-right-radius: .3rem;
+}
+
+
+/*end rounding table borders-------------*/
+
+td, th {
+    box-shadow: inset 0 0 0 .15px black;
+    padding: .3rem;/**/
+}
+
+thead {
+    background-color: #bbb;
+}
+
+tbody>tr:nth-child(2n+1) {
+    background-color: #ddd;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+td>span {
+    font-weight: normal;
+    display: inline-block;
+    width: 100%;
+}
+
+
+/*About Section..............................................................*/
+
+section.about {
+    background-image: url("images/us_16_9_smaller_web_30.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 30%;
+    box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, .2);
+}
+
+div.about {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 1.5rem;
+    width: 25rem;
+    height: 8rem;
+}
+
+div.call {
+    margin-top: 1rem;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    color: #ff0800;
+    align-self: center;
+}
+
+a.call {
+    color: #ff0800;
+    font-size: 2.5rem;
+    text-decoration: none;
+}
+
+a.call:hover {
+    color: blue;
+}
+
+
+/*footer....................................................................*/
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    font-family: sans-serif;
+    color: black;
+    padding-bottom: 1rem;
+}
+
+p.footer, a.footer {
+    width: 95%;/**/
+    text-align: center;
+    padding: .25rem;
+}
+
+a.footer {
+    text-decoration-line: none;
+}

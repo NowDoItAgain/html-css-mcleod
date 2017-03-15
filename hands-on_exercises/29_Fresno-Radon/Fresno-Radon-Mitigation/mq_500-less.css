@@ -1,0 +1,109 @@
+/*css-reset.................................................................*/
+
+
+/*Header-Nav................................................................*/
+
+header {
+    margin-top: 1rem;
+}
+
+header>h1:first-child {
+    font-size: 2rem;
+}
+
+nav.main {
+    display: none;
+}
+
+
+/*End Header-Nav............................................................*/
+
+section {
+    height: 30rem;
+    margin-top: 1rem;
+}
+
+section.atf-photo {
+    background-image: url("images/beachmommed.jpg");
+    /**/
+    background-size: cover;
+    /**/
+    background-position: center;
+    /**/
+}
+
+div.layer {
+    height: 20rem;
+    /**/
+    width: 16rem;
+    /**/
+}
+
+h1.layer {
+    font-size: 3rem;
+    /**/
+}
+
+p.layer {
+    line-height: 2rem;
+    /**/
+    font-size: 1.25rem;
+    /**/
+}
+
+
+/*Test Your Home Today - Button.............................................*/
+
+
+/*Articles...................................................................*/
+
+article {
+    width: 20rem;
+    /**/
+
+    /**/
+}
+
+div.list {
+    width: 20rem;
+    /**/
+    flex-flow: row wrap;
+    /**/
+}
+
+
+/*Tables.....................................................................*/
+
+table {
+    font-size: .8rem;
+    /**/
+}
+
+
+/*rounding table borders---------------*/
+
+
+/*end rounding table borders-------------*/
+
+td, th {
+    padding: .3rem;
+    /**/
+}
+
+
+/*About Section..............................................................*/
+
+section.about {
+    background-image: url("images/us_16_9_smaller_web_30.jpg");
+    /**/
+}
+
+
+/*footer....................................................................*/
+
+p.footer, a.footer {
+    width: 95%;
+    /**/
+    padding: .25rem;
+    /**/
+}
