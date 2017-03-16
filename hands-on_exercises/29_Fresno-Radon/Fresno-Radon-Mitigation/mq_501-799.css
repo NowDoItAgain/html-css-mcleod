@@ -14,6 +14,7 @@ header>h1:first-child {
 }
 
 nav.main {
+  width: 42rem;
     /*display: none;*/
 }
 
@@ -73,7 +74,7 @@ article {
 div.list {
     width: 42rem;
     /**/
-    flex-flow: column nowrap;
+    flex-flow: row wrap;
     /**/
 }
 

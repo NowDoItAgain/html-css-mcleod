@@ -181,10 +181,12 @@ div.list {
     justify-content: space-around;
     flex-flow: row nowrap;
     margin: 1rem 0;
+    border: 1px solid hotpink;
 }
 
 ol, img {
     display: inline-block;
+    border: 1px solid hotpink;
 }
 
 a.resource {
