@@ -7,6 +7,8 @@ html, body, div, h1, h2, p {
 }
 
 body {
+    overflow-y: scroll;
+    overflow-x: hidden;
     display: flex;
     flex-flow: row wrap;
     justify-content: center;
@@ -29,7 +31,7 @@ header {
 
 header > h1:first-child {
     text-align: center;
-    /*width: 100%;*/
+    width: 100%;
     font-size: 2.2rem;
     font-weight: normal;
     letter-spacing: .2rem;
@@ -39,6 +41,7 @@ header > h1:first-child {
 
 nav.main {
     width: 72rem;
+    /*width: 60%;*/
     display: flex;
     justify-content: center;
     align-items: center;
