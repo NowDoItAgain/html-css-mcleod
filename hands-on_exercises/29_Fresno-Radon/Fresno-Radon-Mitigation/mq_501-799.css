@@ -73,7 +73,7 @@ article {
 div.list {
     width: 42rem;
     /**/
-    flex-flow: row wrap;
+    flex-flow: column nowrap;
     /**/
 }
 
@@ -104,7 +104,7 @@ td, th {
 /*About Section..............................................................*/
 
 section.about {
-    background-image: url("images/images/us_left_web_30.jpg");
+    background-image: url("images/us_left_web_30.jpg");
     /**/
 }
 
