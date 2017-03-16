@@ -17,6 +17,10 @@ nav.main {
     /*display: none;*/
 }
 
+div.line {
+  display: none;
+}
+
 
 /*End Header-Nav............................................................*/
 
@@ -26,7 +30,7 @@ section {
 }
 
 section.atf-photo {
-    background-image: url("images/beachmommed.jpg");
+    background-image: url("images/beachmom.jpg");
     /**/
     background-size: cover;
     /**/
@@ -100,7 +104,7 @@ td, th {
 /*About Section..............................................................*/
 
 section.about {
-    background-image: url("images/us_16_9_smaller_web_30.jpg");
+    background-image: url("images/images/us_left_web_30.jpg");
     /**/
 }
 
