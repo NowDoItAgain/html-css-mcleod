@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>MyGreaterCommons</title>
+    <!-- META INFO -->
+    <meta name="description" content="Find course materials, collect course materials, share course materials">
+    <meta name="keywords" content="course reader, course materials">
+    <meta name="author" content="Benjamin Faught">
+    <!-- Styles -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="main.css">
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Lato:300,400,700,900'>
+    <link rel='stylesheet' href='http://fonts.googleapis.com/css?family=Indie+Flower'>
+
+    <!-- Favicons -->
+    <link rel="apple-touch-icon" sizes="180x180" href="fav/apple-touch-icon.png">
+    <link rel="icon" type="image/png" href="fav/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="fav/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="fav/manifest.json">
+    <link rel="mask-icon" href="fav/safari-pinned-tab.svg" color="#16AA00">
+    <meta name="theme-color" content="#ffffff">
+
+</head>
+
+<body>
+
+    <main class="atf">
+        <header class="logo">
+
+            <a class="logo" href="#"><h1 class="logo">#greatercommons</h1></a>
+
+            <div id="btn" class="signin">
+                <p>Have an account?</p>
+                <a href="#">Sign In</a>
+            </div>
+        </header>
+        <section class="intro">
+            <div class="intro">
+                <h1 class="intro">Great Classes
+                  <br> Start Here
+                </h1>
+            </div>
+        </section>
+        <section class="info">
+            <p id="slug" class="info">
+              "GreaterCommons lets you collect, share, and discover class materials.
+              <br>
+              GreaterCommons will help you find great teaching materials including videos,
+              <br>
+              articles, pictures, handouts, presentations and more."
+            </p>
+            <a href="" class="button">MAKE MY CLASSES GREAT</a>
+            <nav class="info">
+                <a id="create" href="#" class="info">create</a>
+                <a id="become" href="#" class="info">become</a>
+                <a id="find" href="#" class="info">find</a>
+            </nav>
+        </section>
+    </main>
+
+    <script>
+        var x = document.querySelector("#slug");
+        document.querySelector("#create").addEventListener("mouseover", mouseOver);
+        document.querySelector("#become").addEventListener("mouseover", mouseOver1);
+        document.querySelector("#find").addEventListener("mouseover", mouseOver2);
+        document.querySelector("#create").addEventListener("mouseout", mouseOut);
+        document.querySelector("#become").addEventListener("mouseout", mouseOut);
+        document.querySelector("#find").addEventListener("mouseout", mouseOut);
+        document.querySelector("#btn").addEventListener("click", myAlert);
+
+        function myAlert() {
+            alert("The button will launch the sign-in page.");
+        }
+
+        function mouseOver() {
+            x.innerHTML = "";
+            x.style.maxWidth = "900px";
+            x.innerHTML = "" +
+            "\"Create a collection of resources. PowerPoint presentations, handouts, " +
+            "links to online resources such as videos, articles, and useful websites - GreaterCommons " +
+            "lets you easily collect, organize, and share course materials.\"";
+        }
+        function mouseOver1() {
+            x.innerHTML = "";
+            x.style.maxWidth = "1100px";
+            x.innerHTML = "" +
+            "\"Become a center of influence. Allow others to discover your resources " +
+            "then copy them into their collections. You will be able to see how many " +
+            "classes and students have benefited from your resources - you will be influencing " +
+            "the quality of classes around the world.\"";
+        }
+        function mouseOver2() {
+            x.innerHTML = "";
+            x.style.maxWidth = "1100px";
+            x.innerHTML = "" +
+            "\"Find great resources. GreaterCommons is a central repository of course resources. " +
+            "Find the resources that have been used the most, and rated the highest, then " +
+            "copy those resources into your collection and use them in your classes.\"";
+        }
+
+        function mouseOut() {
+            x.innerHTML = "";
+            x.style.maxWidth= "800px";
+            x.innerHTML = "\"GreaterCommons lets you " +
+            "collect, share, and discover class materials. GreaterCommons will help you find great " +
+            "teaching materials including videos, articles, pictures, handouts, presentations and more.\"";
+        }
+    </script>
+
+</body>
+
+</html>
