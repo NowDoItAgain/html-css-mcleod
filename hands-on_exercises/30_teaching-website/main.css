@@ -217,10 +217,10 @@ nav.info {
  }
 
 }
-  @media (max-height: 1000px) {
+  @media (min-width: 901px) and max-width(1400px) {
     section.info {
       padding: 2rem 0 .5rem 0;
       justify-content: space-between;
-      height: 35%;
+      height: 45%;
     }
   }
