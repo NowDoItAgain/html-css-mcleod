@@ -1,6 +1,6 @@
 /*Reset*/
 
-html, body, div, section, main, h1, p, a, header {
+html, body, div, section, main, h1, p, a, header, nav {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -85,7 +85,8 @@ section.info {
     flex-flow: column nowrap;
     align-items: center;
     justify-content: flex-end;
-    height: 29.5vh;
+    padding: 2rem 0 .5rem 0;
+    /*height: 29.5vh;*/
     width: 100%;
     background-color: rgba(255, 255, 255, .1);
 }
@@ -103,7 +104,7 @@ p.info {
     line-height: 1;
     font-family: 'Indie Flower', cursive;
     color: #fff;
-    width: 51%;
+    width: 100%;
     margin-bottom: 1.25rem;
 }
 
@@ -149,7 +150,7 @@ nav.info {
     padding-top: 0;
 }
 
-/*phones*/
+/*phones.......................................................*/
 
 @media (max-width: 700px) {
 
@@ -176,23 +177,19 @@ nav.info {
 
 
   section.info {
-    height: 50%;
+    /*height: 50%;*/
   }
 
   p.info {
-    width: 90%;
+    width: 95%;
   }
 
 }
 
-/*tablets*/
+/*tablets........................................................*/
 
 @media (min-width: 701px) and (max-width: 900px) {
 
-  /*main {
-    background-image: url("images/g_s_03_five_small.jpg");
-      background-size: cover;
-  }*/
 
   main {
     background-position: left;
@@ -201,7 +198,7 @@ nav.info {
   section.info {
     padding: 2rem 0 .5rem 0;
     justify-content: space-between;
-    height: 35%;
+    /*height: 35%;*/
   }
 
   p.info br {
@@ -209,20 +206,11 @@ nav.info {
  }
 
  p.info {
-   width: 90%;
+   width: 95%;
  }
 
  nav.info {
    width: 95%;
  }
 
-
-/*smaller desktop-laptop screens*/
 }
-  @media (min-width: 901px) and (max-width: 1400px) {
-    section.info {
-      padding: 2rem 0 .5rem 0;
-      justify-content: space-between;
-      height: 45%;
-    }
-  }
