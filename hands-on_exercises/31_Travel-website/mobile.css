@@ -1,0 +1,95 @@
+/*Media Queries*/
+/*phones.......................................................*/
+
+@media (max-width: 700px) {
+
+  html {
+    font-size: 3vw;
+  }
+
+  header.atf {
+    position: relative;
+    height: 8vh;
+  }
+
+  div.atf {
+    height: 72vh;
+  }
+
+  footer.atf {
+    height: 20vh;
+    justify-content: center;
+  }
+
+  h1.atf-foot {
+    margin-bottom: 1rem;
+  }
+
+  a.logo {
+    width: 100%;
+  }
+
+  nav {
+    display: none;
+  }
+
+  section.story {
+    height: auto;
+  }
+
+  article {
+    width: 100%
+  }
+
+}
+
+
+/*tablets........................................................*/
+
+@media (min-width: 701px) and (max-width: 900px) {
+
+  html {
+    font-size: 1.85vw;
+  }
+
+  header.atf {
+    position: relative;
+    height: 8vh;
+  }
+
+  div.atf {
+    height: 72vh;
+  }
+
+  footer.atf {
+    height: 20vh;
+    justify-content: center;
+  }
+
+  h1.atf-foot {
+    margin-bottom: 1rem;
+  }
+
+  a.logo {
+      width: 30%;
+  }
+
+  nav {
+    width: 70%
+  }
+
+  a.menu {
+    font-size: .65rem;
+  }
+
+
+
+  section.story {
+    height: auto;
+  }
+
+  article {
+    width: 100%
+  }
+
+}
