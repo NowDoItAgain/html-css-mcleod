@@ -37,6 +37,10 @@
     display: none;
   }
 
+  section.photos {
+    width: 100vw;
+  }
+
   section.story {
     height: auto;
   }
@@ -62,7 +66,10 @@
   }
 
   div.atf {
-    height: 72vh;
+      height: 72vh;
+      background-image: url("img/adventure.jpg");
+      background-size: auto;
+      background-attachment: scroll;
   }
 
   footer.atf {
