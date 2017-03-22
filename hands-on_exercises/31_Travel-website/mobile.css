@@ -15,7 +15,6 @@
   div.atf {
       height: 72vh;
       background-image: url("img/adventure-sm.jpg");
-      background-size: auto;
       background-attachment: scroll;
   }
 
@@ -68,7 +67,6 @@
   div.atf {
       height: 72vh;
       background-image: url("img/adventure.jpg");
-      background-size: auto;
       background-attachment: scroll;
   }
 
