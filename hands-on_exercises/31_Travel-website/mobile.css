@@ -37,6 +37,10 @@
   }
 
   section.photos {
+    display: none;
+  }
+
+  section.photos-mobile {
     width: 100vw;
   }
 
