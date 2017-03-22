@@ -134,10 +134,6 @@ section.photos {
     margin-bottom: .5rem;
 }
 
-section.photos-mobile {
-  display: none;
-}
-
 img {
     margin: .3rem 0;
 }
